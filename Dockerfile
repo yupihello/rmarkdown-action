@@ -1,5 +1,5 @@
 #Container image that runs your code
-FROM rocker/r-rmd
+FROM rocker/verse
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh render.R /
